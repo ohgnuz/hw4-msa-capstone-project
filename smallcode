@@ -1,2 +1,129 @@
-작은 코드 생산 테스트
-ㅇㄻㄴㅇㅇㄹ
+import random
+
+def generate_random_number():
+    return random.randint(1, 100)
+
+def add_numbers(a, b):
+    return a + b
+
+def multiply_numbers(a, b):
+    return a * b
+
+def print_info(info):
+    print(f"Info: {info}")
+
+class RandomOperations:
+    def __init__(self, operation_name):
+        self.operation_name = operation_name
+
+    def perform_operation(self):
+        num1 = generate_random_number()
+        num2 = generate_random_number()
+        if self.operation_name == "add":
+            return add_numbers(num1, num2)
+        elif self.operation_name == "multiply":
+            return multiply_numbers(num1, num2)
+        else:
+            return None
+
+class RandomOperations:
+    def __init__(self, operation_name):
+        self.operation_name = operation_name
+
+    def perform_operation(self):
+        num1 = generate_random_number()
+        num2 = generate_random_number()
+        if self.operation_name == "add":
+            return add_numbers(num1, num2)
+        elif self.operation_name == "multiply":
+            return multiply_numbers(num1, num2)
+        else:
+            return None
+
+
+class RandomOperations:
+    def __init__(self, operation_name):
+        self.operation_name = operation_name
+
+    def perform_operation(self):
+        num1 = generate_random_number()
+        num2 = generate_random_number()
+        if self.operation_name == "add":
+            return add_numbers(num1, num2)
+        elif self.operation_name == "multiply":
+            return multiply_numbers(num1, num2)
+        else:
+            return None
+
+
+class RandomOperations:
+    def __init__(self, operation_name):
+        self.operation_name = operation_name
+
+    def perform_operation(self):
+        num1 = generate_random_number()
+        num2 = generate_random_number()
+        if self.operation_name == "add":
+            return add_numbers(num1, num2)
+        elif self.operation_name == "multiply":
+            return multiply_numbers(num1, num2)
+        else:
+            return None
+
+
+class RandomOperations:
+    def __init__(self, operation_name):
+        self.operation_name = operation_name
+
+    def perform_operation(self):
+        num1 = generate_random_number()
+        num2 = generate_random_number()
+        if self.operation_name == "add":
+            return add_numbers(num1, num2)
+        elif self.operation_name == "multiply":
+            return multiply_numbers(num1, num2)
+        else:
+            return None
+
+
+class RandomOperations:
+    def __init__(self, operation_name):
+        self.operation_name = operation_name
+
+    def perform_operation(self):
+        num1 = generate_random_number()
+        num2 = generate_random_number()
+        if self.operation_name == "add":
+            return add_numbers(num1, num2)
+        elif self.operation_name == "multiply":
+            return multiply_numbers(num1, num2)
+        else:
+            return None
+
+
+class RandomOperations:
+    def __init__(self, operation_name):
+        self.operation_name = operation_name
+
+    def perform_operation(self):
+        num1 = generate_random_number()
+        num2 = generate_random_number()
+        if self.operation_name == "add":
+            return add_numbers(num1, num2)
+        elif self.operation_name == "multiply":
+            return multiply_numbers(num1, num2)
+        else:
+            return None
+
+
+class RandomOperations:
+    def __init__(self, operation_name):
+        self.operation_name = operation_name
+
+    def perform_operation(self):
+        num1 = generate_random_number()
+        num2 = generate_random_number()
+        if self.operation_name == "add":
+            return add_numbers(num1, num2)
+        elif self.operation_name == "multiply":
+            return multiply_numbers(num1, num2)
